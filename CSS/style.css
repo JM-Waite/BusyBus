@@ -3,55 +3,115 @@
 }
 
 body {
-  background-color: ;
-  font-family: ;
+  background-color: #ffffff;
+  font-family: sans-serif;
   font-size: 12px;
+  box-sizing: border-box;
 }
 
 /* STATUS BAR */
 .status {
-  margin: 5px;
-  border: 5px;
-  padding: 0;
   background-color: #eeeeee;
   position: absolute;
   width: 375px;
   height: 20px;
-  left: 0px;
-  top: 0px;
+  margin-top: 2%;
+  box-sizing: border-box;
+  float: left;
 }
 .signal {
-  margin: 5px;
-  border: 5px;
-  padding: 0;
   position: absolute;
   left: 1.87%;
   right: 94.27%;
   top: 25%;
   bottom: 27.5%;
-  background: #000000;
+  float: left;
+  width: 33%;
+  height: 50px;
 }
 .wifi {
-  position: absolute;
-  width: 13px;
-  height: 9px;
-  left: 45.5px;
-  top: calc(50% - 9px/2);
-  background: #030303;
+  float: left;
+  width: 33%;
+  height: 50px;
 }
 .time {
-  margin: 5px;
-  border: 5px;
-  padding: 0;
-  width: ;
-  height: ;
-  background-color: ;
+  position: absolute;
+  width: 49px;
+  height: 15px;
+  left: calc(50% - 49px/2 + 1px);
+  top: calc(50% - 15px/2);
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #030303;
+  float: left;
+  width: 33%;
+  height: 50px;
 }
 .battery {
   margin: 5px;
   border: 5px;
   padding: 0;
-  width: ;
-  height: ;
-  background-color: ;
+  position: absolute;
+  left: 92.27%;
+  right: 1.2%;
+  top: 25%;
+  bottom: 22.5%;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 12px;
+  text-align: center;
+  color: #030303;
+  float: left;
+  width: 33%;
+  height: 50px;
 }
+
+/* NAV */
+.nav {
+  position: absolute;
+  width: 375px;
+  height: 79px;
+  left: 0px;
+  top: 0px;
+  background-color: #eeeeee;
+}
+.left-arrow {
+  float: left;
+  width: 33%;
+}
+.bus-stop {
+  float: left;
+  width: 33%;
+}
+.location-arrow {
+  float: left;
+  width: 33%;
+}
+
+/* MAP */
+.map {
+  float: left;
+}
+
+/* BUS BAR */
+/* EASY */
+
+ul, li {
+  list-style-type: none;
+  box-sizing: border-box;
+  float: left;
+  clear: both;
+  display: block;
+  padding: 10px;
+  }
+
+/* NORTH */
+/* SOUTH */
+/* REROUTE */
+/* OUT OF SERVICE */
