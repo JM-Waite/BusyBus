@@ -1,0 +1,57 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: ;
+  font-family: ;
+  font-size: 12px;
+}
+
+/* STATUS BAR */
+.status {
+  margin: 5px;
+  border: 5px;
+  padding: 0;
+  background-color: #eeeeee;
+  position: absolute;
+  width: 375px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+}
+.signal {
+  margin: 5px;
+  border: 5px;
+  padding: 0;
+  position: absolute;
+  left: 1.87%;
+  right: 94.27%;
+  top: 25%;
+  bottom: 27.5%;
+  background: #000000;
+}
+.wifi {
+  position: absolute;
+  width: 13px;
+  height: 9px;
+  left: 45.5px;
+  top: calc(50% - 9px/2);
+  background: #030303;
+}
+.time {
+  margin: 5px;
+  border: 5px;
+  padding: 0;
+  width: ;
+  height: ;
+  background-color: ;
+}
+.battery {
+  margin: 5px;
+  border: 5px;
+  padding: 0;
+  width: ;
+  height: ;
+  background-color: ;
+}
