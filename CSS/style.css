@@ -91,9 +91,9 @@ nav {
 
 .header {
   background-color: #E5E5E5;
-  margin: 1% 0;
+  margin: 1% 0px;
   width: 100%;
-  padding: 1px 1px;
+  padding: 0px;
   text-align: center;
 }
 .content {
@@ -106,9 +106,9 @@ nav {
   background-color: #FFE787;
   margin: .5% 0;
   width: 100%;
-  padding: 10px;
+  padding: 0px 10px 0px 10px;
   clear: both;
-  height: 100px;
+  height: 90px;
 }
 .location:hover {
   background-color: #FFE065;
@@ -116,7 +116,7 @@ nav {
 
 
 .info {
-  width: 80%;
+  width: 90%;
   display: inline-block;
   float: left;
 }
@@ -160,12 +160,12 @@ nav {
   margin-top: 8px;
 }
 
-.info-left {
+.info-top {
   width: 100%;
   float: left;
   display: inline-block;
 }
-.info-right {
+.info-bottom {
   width: 100%;
   float: left;
   display: inline-block;
@@ -173,69 +173,8 @@ nav {
 
 .arrow {
   margin: 1% 0;
-  width: 20%;
-  padding: 50px 0px;
+  width: 10%;
+  padding: 30px 0px;
   display: inline-block;
-  text-align: right;
+  text-align: center;
 }
-
-
-
-
-
-.info-out {
-  width: 100%;
-}
-
-
-
-
-/***************************
-ul, li {
-  list-style-type: none;
-  box-sizing: border-box;
-  float: left;
-  clear: both;
-  display: block;
-  padding: 10px;
-  }
-****************************/
-
-
-
-
-
-
-
-/* <div class="bound">
-  <h3>Eastbound</h3>
-  <ul>
-    <li class="line">
-      <h2>60</h2>
-    </li>
-    <li class="destination">
-      <h2>Randolph/Harbor Dr</h2>
-    </li>
-    <li class="eta">
-      <h2>0 min</h2>
-    </li>
-    <li class="freq">
-      <h2>every 20 min</h2>
-    </li>
-  </ul>
-  <ul>
-    <li class="line">
-      <h2>124</h2>
-    </li>
-    <li class="destination">
-      <h2>Navy Pier</h2>
-    </li>
-    <li class="eta">
-      <h2>4 min</h2>
-    </li>
-    <li class="freq">
-      <h2>every 10 min</h2>
-    </li>
-  </ul>
-</div>
-*/
