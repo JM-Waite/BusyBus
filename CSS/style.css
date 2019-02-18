@@ -15,43 +15,47 @@ body {
 nav {
   color: #000000;
   box-sizing: border-box;
-  height: 50px
+  height: 20px
   color: #000000;
   background-color: #ececec;
   border: 1px solid #b3b3b3;
   border-left-color: transparent;
   border-right-color: transparent;
+  width: 100%;
+}
+.nav {
+  height: 50px;
+}
+.left-arrow {
+  float: left;
+  display: inline-block;
+  width: 20%;
+  padding-top: 10px;
+}
+.stop {
+  float: left;
+  display: inline-block;
+  width: 70%;
+  padding-top: 10px;
+  font-size: 16px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.right-arrow {
+  float: left;
+  display: inline-block;
+  width: 10%;
+  padding-top: 18px;
 }
 
-/*
-body {
-  background-color: #333;
-  font-family: sans-serif;
-  font-size: 10px;
+.google {
+  height: 75px;
 }
-
-.container {
-  margin: 0 auto;
-  width: 420px;
-}
-
-nav {
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
-  background-color: #000000;
-}
-
-*/
-
 
 
 .map {
   float: left;
-  margin: 20px auto;
 }
-
 
 .bus-list {
   padding-top: 43px;
@@ -179,7 +183,9 @@ nav {
 
 
 
-
+.info-out {
+  width: 100%;
+}
 
 
 
