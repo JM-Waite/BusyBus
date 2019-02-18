@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>BusyBus</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  </head>
-  <body>
+
+
+  <!--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+
 
 <!-- LOCATION ARROW <i class="fas fa-location-arrow"></i> -->
 <!-- CHEVRON LEFT <i class="fas fa-chevron-left"></i> -->
@@ -20,53 +15,16 @@
 <!-- MAP MARKER <i class="fas fa-map-marker"></i> -->
 <!-- MAP MARKER ALT <i class="fas fa-map-marker-alt"></i> -->
 
-
-<!--STATUS_BAR & NAV-->
-<section class="container">
-  <nav>
-    <div class="top">
-      <div clas="nav-left">
-        <i class="fas fa-signal"></i>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="time">
-        <h4>9:45PM</h4>
-      </div>
-      <div class="nav-right">
-        <h4>75%</h4>
-        <i class="fas fa-battery-three-quarters"></i>
-      </div>
-    </div>
-    <div class="bottom">
-      <div class="left-arrow">
-        <i class="fas fa-angle-left"></i>
-      </div>
-      <div class="stop">
-        <h1>Washington & State</h1>
-      </div>
-      <div class="right-arrow">
-        <i class="fas fa-location-arrow"></i>
-      </div>
-    </div>
-  </nav>
-</section>
-
-
-<!--MAP-->
-<!-- <div class="pin">
-  <i class="fas fa-map-pin"></i>
-</div> -->
-<div class="map">
-  <div class="mapouter"><div class="gmap_canvas"><iframe width="375" height="229" id="gmap_canvas" src="https://maps.google.com/maps?q=washington%20st%20and%20state%20st&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{text-align:right;height:229px;width:375px;}.gmap_canvas {overflow:hidden;background:none!important;height:229px;width:375px;}</style>Google Maps by <a href="https://www.embedgooglemap.net" rel="nofollow" target="_blank">Embedgooglemap.net</a></div>
-</div>
-
 <!--
   <div class="map">
       <img src="images/map.png" alt="map">
   </div>
   -->
 
-<!--BUS_BAR-->
+
+
+<!--not using
+
 <section class="bus-bar">
   <div class="bus">
     <h3>Line/Destination</h3>
@@ -76,9 +34,6 @@
   </div>
 </section>
 
-<!--MISSING ARROWS BELOW-->
-
-<!--EAST-->
 <div class="bound">
   <h3>Eastbound</h3>
   <ul>
@@ -111,7 +66,7 @@
   </ul>
 </div>
 
-<!--NORTH-->
+
 <div class="bound">
   <h3>Northbound</h3>
   <ul>
@@ -130,7 +85,7 @@
   </ul>
 </div>
 
-<!--SOUTH-->
+
 <div class="bound">
   <h3>Southbound</h3>
   <ul>
@@ -163,7 +118,7 @@
   </ul>
 </div>
 
-<!--REROUTE-->
+
 <div class="bound">
   <h3>Reroute</h3>
   <ul>
@@ -179,7 +134,7 @@
   </ul>
 </div>
 
-<!--OUT_OF_SERVICE-->
+
 <div class="bound">
   <h3>Out of Service</h3>
   <ul>
@@ -217,4 +172,213 @@
   </ul>
 
 <!--END-->
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body>
+    <section class="container">
+      <nav>
+        <div class="top">
+          <div clas="nav-left">
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-wifi"></i>
+          </div>
+          <div class="time">
+            <h4>9:45PM</h4>
+          </div>
+          <div class="nav-right">
+            <h4>75%</h4>
+            <i class="fas fa-battery-three-quarters"></i>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="left-arrow">
+            <i class="fas fa-angle-left"></i>
+          </div>
+          <div class="stop">
+            <h1>Washington & State</h1>
+          </div>
+          <div class="right-arrow">
+            <i class="fas fa-location-arrow"></i>
+          </div>
+        </div>
+      </nav>
+
+<!--map-->
+      <section class="google">
+        <div class="map">
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="375" height="229" id="gmap_canvas" src="https://maps.google.com/maps?q=washington%20st%20and%20state%20st&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{text-align:right;height:229px;width:375px;}.gmap_canvas {overflow:hidden;background:none!important;height:229px;width:375px;}</style>Google Maps by <a href="https://www.embedgooglemap.net" rel="nofollow" target="_blank">Embedgooglemap.net</a></div>
+        </div>
+      </section>
+
+<!--below the map-->
+      <section class="bus-list">
+
+      <div class="bus-bar"
+        <div class="bus">
+          <h3>Line/Destination</h3>
+        </div>
+        <div class="eta-freq">
+          <h3>ETA/Frequency</h3>
+        </div>
+      </div>
+
+
+        <div class="header">
+          <div class="content">
+            <h1>Eastbound</h1>
+          </div>
+        </div>
+        <div class="location">
+          <div class="info-left">
+            <h1>60</h1>
+            <h3>Randolph/Harbor Dr</h3>
+          </div>
+          <div class="info-right">
+            <h1>0 min</h1>
+            <h3>every 20 min</h3>
+          </div>
+          <div class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="location">
+          <div class="info-left">
+            <h1>124</h1>
+            <h3>Navy Pier</h3>
+          </div>
+          <div class="info-right">
+            <h1>4 min</h1>
+            <h3>every 10 min</h3>
+          </div>
+          <div class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="header">
+          <div class="content">
+            <h1>Northbound</h1>
+          </div>
+        </div>
+        <div class="location">
+          <div class="info-left">
+            <h1>151<h1>
+            <h3>Devon/Clark</h3>
+          </div>
+          <div class="info-right">
+            <h1>7 min</h1>
+            <h3>every 16 min</h3>
+          </div>
+          <div class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="header">
+          <div class="content">
+            <h1>Southbound</h1>
+          </div>
+        </div>
+        <div class="location">
+          <div class="info-left">
+            <h1>J14</h1>
+            <h3>103rd/Stony Island</h3>
+          </div>
+          <div class="info-right">
+            <h1>8 min</h1>
+            <h3>every 15 min</h3>
+          </div>
+          <div class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="location">
+          <div class="info-left">
+            <h1>124</h1>
+            <h3>Navy Pier</h3>
+          </div>
+          <div class="info-right">
+            <h1>11 min</h1>
+            <h3>every 10 min</h3>
+          </div>
+          <div class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="header">
+          <div class="content">
+            <h1>Reroute</h1>
+          </div>
+        </div>
+        <div class="location">
+          <div class="info-left">
+            <h1>6x<h1>
+            <h3>Jackson Park Express</h3>
+          </div>
+          <div class="info-right">
+            <h1>16 min</h1>
+          </div>
+          <div class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="header">
+          <div class="content">
+            <h1>Out of Service</h1>
+          </div>
+        </div>
+        <div class="location">
+          <div class="info-left">
+            <h1>4</h1>
+            <h3>Cottage Grove</h3>
+          </div>
+          <div class="info-right">
+            <h3>resumes 12:10AM</h3>
+          </div>
+          <div class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="location">
+          <div class="info-left">
+            <h1>20</h1>
+            <h3>Madison</h3>
+          </div>
+          <div class="info-right">
+            <h3>resumes 12:10AM</h3>
+          </div>
+          <div class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="location">
+          <div class="info-left">
+            <h1>157</h1>
+            <h3>Streeterville Taylor</h3>
+          </div>
+          <div class="info-right">
+            <h3>resumes 6:00AM</h3>
+          </div>
+          <div class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </div>
+        </div>
+
+<!--do not modify below here-->
+      </section>
+    </section>
   </body>
+</html>

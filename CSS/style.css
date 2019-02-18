@@ -1,15 +1,12 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
 body {
   background-color: #eeeeee;
   font-family: sans-serif;
   font-size: 12px;
   box-sizing: border-box
 }
-
-/* STATUS BAR & NAV */
 .container {
   box-sizing: border-box;
   border: 1px solid #b3b3b3;
@@ -26,53 +23,43 @@ nav {
   color: #000000;
   background-color: #ececec;
 }
-.top {
-  float: left;
-  width: 100%;
-  z-index: 1;
+
+/*
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 10px;
 }
-.nav-left {
-  float: left;
-  width: 32%;
-  height: 50px;
+
+.container {
+  margin: 0 auto;
+  width: 420px;
 }
-.time {
-  float: center;
-  width: 32%;
-  height: 50px;
+
+nav {
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+  background-color: #000000;
 }
-.nav-right {
-  float: right;
-  width: 32%;
-  height: 50px;
-}
-.bottom {
-  clear: both;
-  width: 100%;
-  z-index: 1;
-}
-.left-arrow {
-  float: left;
-  width: 33%;
-}
-.stop {
-  float: center;
-  width: 33%;
-}
-.right-arrow {
-  float: right;
-  width: 33%;
-}
+
+*/
 
 
 
-/* MAP */
 .map {
   float: left;
   margin: 20px auto;
 }
 
-/* BUS BAR */
+
+.bus-list {
+  padding-top: 43px;
+  width: 100%;
+}
+
+
 .bus-bar {
   float: left;
   width: 33%;
@@ -80,22 +67,92 @@ nav {
 }
 .bus {
   float: left;
-  width: 50%;
+  width: 35%;
   height: 50px;
 }
 .eta-freq {
   float: left;
-  width: 50%;
+  width: 55%;
   height: 50px;
+  text-align: right;
 }
 
-/* EAST */
-.bound {
+
+
+.header {
+  background-color: #E5E5E5;
+  margin: 1% 0;
+  width: 100%;
+  padding: 1px 1px;
+  text-align: center;
+}
+.content {
+  margin: .5% 0;
+  width: 75%;
+  padding: 20px;
+  display: inline-block;
+}
+.location {
+  background-color: #FFE787;
+  margin: .5% 0;
+  width: 100%;
+  padding: 10px;
+}
+.location:hover {
+  background-color: #FFE065;
+}
+
+.info-left h1 {
+  font-size: 150%;
+  color: #000000;
+  font-weight: 550;
+  width: 50%;
   float: left;
+  display: inline-block;
+  line-height: 18px;
+}
+.info-left h3 {
+  font-size: 125%;
+  color: #000000;
+  font-weight: 500;
+  display: inline-block;
+  line-height: 18px;
   width: 50%;
-  height: 50px;
+  float: left;
+}
+.info-right h1 {
+  font-size: 175%;
+  color: #000000;
+  line-height: 18px;
+  font-weight: bold;
+  width: 50%;
+  float: right;
+}
+.info-right h3 {
+  font-size: 125%;
+  color: #000000;
+  line-height: 18px;
+  width: 50%;
+  float: right;
+}
+.arrow {
+  margin: 1% 0;
+  width: 33%;
+  padding: 5px 0px;
+  display: inline-block;
 }
 
+
+
+
+
+
+
+
+
+
+
+/***************************
 ul, li {
   list-style-type: none;
   box-sizing: border-box;
@@ -104,6 +161,13 @@ ul, li {
   display: block;
   padding: 10px;
   }
+****************************/
+
+
+
+
+
+
 
 /* <div class="bound">
   <h3>Eastbound</h3>
@@ -137,11 +201,3 @@ ul, li {
   </ul>
 </div>
 */
-
-
-
-
-/* NORTH */
-/* SOUTH */
-/* REROUTE */
-/* OUT OF SERVICE */
