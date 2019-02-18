@@ -3,25 +3,24 @@
 }
 body {
   background-color: #eeeeee;
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 12px;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 .container {
   box-sizing: border-box;
-  border: 1px solid #b3b3b3;
-  border-left-color: transparent;
-  border-right-color: transparent;
   width: 375px;
   margin: 20px auto;
 }
 nav {
-  color: #ffffff;
+  color: #000000;
   box-sizing: border-box;
   height: 50px
-  font-family: SF Pro Text;
   color: #000000;
   background-color: #ececec;
+  border: 1px solid #b3b3b3;
+  border-left-color: transparent;
+  border-right-color: transparent;
 }
 
 /*
@@ -57,13 +56,14 @@ nav {
 .bus-list {
   padding-top: 43px;
   width: 100%;
+  font-family: SF Pro Text;
 }
 
 
 .bus-bar {
   float: left;
-  width: 33%;
-  height: 50px;
+  width: 35%;
+  height: 20px;
 }
 .bus {
   float: left;
@@ -72,7 +72,7 @@ nav {
 }
 .eta-freq {
   float: left;
-  width: 55%;
+  width: 35%;
   height: 50px;
   text-align: right;
 }
@@ -106,40 +106,43 @@ nav {
   font-size: 150%;
   color: #000000;
   font-weight: 550;
-  width: 50%;
+  width: 40%;
   float: left;
   display: inline-block;
   line-height: 18px;
 }
 .info-left h3 {
-  font-size: 125%;
+  font-size: 175%;
   color: #000000;
-  font-weight: 500;
+  font-weight: bold;
   display: inline-block;
   line-height: 18px;
-  width: 50%;
+  width: 40%;
   float: left;
 }
 .info-right h1 {
-  font-size: 175%;
+  font-size: 125%;
   color: #000000;
   line-height: 18px;
-  font-weight: bold;
-  width: 50%;
-  float: right;
+  font-weight: 550;
+  width: 40%;
+  float: left;
 }
 .info-right h3 {
   font-size: 125%;
   color: #000000;
   line-height: 18px;
-  width: 50%;
-  float: right;
+  width: 40%;
+  float: left;
+  font-weight: normal;
+  font-style: oblique;
 }
 .arrow {
   margin: 1% 0;
-  width: 33%;
-  padding: 5px 0px;
+  width: 21%;
+  padding: 0px 0px;
   display: inline-block;
+  text-align: right;
 }
 
 
