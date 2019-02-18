@@ -62,19 +62,25 @@ nav {
 
 .bus-bar {
   float: left;
-  width: 35%;
-  height: 20px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  display: inline-block;
+  background-color: #B3B3B3;
 }
+
 .bus {
   float: left;
-  width: 35%;
+  width: 50%;
   height: 50px;
+  display: inline-block;
 }
 .eta-freq {
   float: left;
-  width: 35%;
+  width: 50%;
   height: 50px;
   text-align: right;
+  display: inline-block;
 }
 
 
@@ -89,7 +95,7 @@ nav {
 .content {
   margin: .5% 0;
   width: 75%;
-  padding: 20px;
+  padding: 0px;
   display: inline-block;
 }
 .location {
@@ -97,54 +103,77 @@ nav {
   margin: .5% 0;
   width: 100%;
   padding: 10px;
+  clear: both;
+  height: 100px;
 }
 .location:hover {
   background-color: #FFE065;
 }
 
-.info-left h1 {
+
+.info {
+  width: 80%;
+  display: inline-block;
+  float: left;
+}
+.info-top h1 {
   font-size: 150%;
   color: #000000;
   font-weight: 550;
-  width: 40%;
   float: left;
   display: inline-block;
   line-height: 18px;
+  width: 60%;
+  margin-bottom: 0;
 }
-.info-left h3 {
+.info-top h3 {
   font-size: 175%;
   color: #000000;
   font-weight: bold;
   display: inline-block;
   line-height: 18px;
-  width: 40%;
   float: left;
+  width: 40%;
+  margin-bottom: 0;
 }
-.info-right h1 {
+.info-bottom h1 {
   font-size: 125%;
   color: #000000;
   line-height: 18px;
   font-weight: 550;
-  width: 40%;
   float: left;
+  width: 60%;
+  margin-top: 8px;
 }
-.info-right h3 {
+.info-bottom h3 {
   font-size: 125%;
   color: #000000;
   line-height: 18px;
-  width: 40%;
   float: left;
   font-weight: normal;
   font-style: oblique;
+  width: 40%;
+  margin-top: 8px;
 }
+
+.info-left {
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+.info-right {
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+
 .arrow {
   margin: 1% 0;
-  width: 21%;
-  padding: 0px 0px;
+  width: 20%;
+  padding: 50px 0px;
   display: inline-block;
   text-align: right;
 }
-
 
 
 
