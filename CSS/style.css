@@ -1,57 +1,183 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
 body {
-  background-color: ;
-  font-family: ;
+  background-color: #eeeeee;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 12px;
+  box-sizing: border-box;
+}
+.container {
+  box-sizing: border-box;
+  width: 375px;
+  margin: 20px auto;
 }
 
-/* STATUS BAR */
-.status {
-  margin: 5px;
-  border: 5px;
-  padding: 0;
-  background-color: #eeeeee;
-  position: absolute;
+/* NAV */
+nav {
+  color: #000000;
+  box-sizing: border-box;
+  height: 20px
+  color: #000000;
+  background-color: #ececec;
+  border: 1px solid #b3b3b3;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  width: 100%;
+}
+.nav {
+  height: 50px;
+  background-color: #B3B3B3;
+}
+.left-arrow {
+  float: left;
+  display: inline-block;
+  width: 20%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.stop {
+  float: left;
+  display: inline-block;
+  width: 70%;
+  padding-top: 10px;
+  font-size: 16px;
+  padding-bottom: 0;
+  padding-top: 15px;
+  font-size: 2em;
+}
+.right-arrow {
+  float: left;
+  display: inline-block;
+  width: 10%;
+  padding-top: 18px;
+}
+
+/* MAP */
+iframe {
+  float: left;
+  display: inline-block;
   width: 375px;
-  height: 20px;
-  left: 0px;
-  top: 0px;
+  height: 300px;
 }
-.signal {
-  margin: 5px;
-  border: 5px;
-  padding: 0;
-  position: absolute;
-  left: 1.87%;
-  right: 94.27%;
-  top: 25%;
-  bottom: 27.5%;
-  background: #000000;
+
+
+/* START OF BUS LIST */
+.bus-list {
+  padding-top: 43px;
+  width: 100%;
 }
-.wifi {
-  position: absolute;
-  width: 13px;
-  height: 9px;
-  left: 45.5px;
-  top: calc(50% - 9px/2);
-  background: #030303;
+.bus-bar {
+  float: left;
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  display: inline-block;
+  background-color: #B3B3B3;
+  font-size: 1.25em;
+  font-weight: bolder;
 }
-.time {
-  margin: 5px;
-  border: 5px;
-  padding: 0;
-  width: ;
-  height: ;
-  background-color: ;
+.bus {
+  float: left;
+  width: 50%;
+  height: 50px;
+  display: inline-block;
 }
-.battery {
-  margin: 5px;
-  border: 5px;
-  padding: 0;
-  width: ;
-  height: ;
-  background-color: ;
+.eta-freq {
+  float: left;
+  width: 50%;
+  height: 50px;
+  text-align: right;
+  display: inline-block;
+}
+
+
+/* BUSSES */
+.header {
+  background-color: #E5E5E5;
+  margin: 1% 0px;
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.content {
+  margin: .5% 0;
+  width: 75%;
+  padding: 0px;
+  display: inline-block;
+}
+.location {
+  background-color: #FFE787;
+  margin: .5% 0;
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+  clear: both;
+  height: 90px;
+}
+.location:hover {
+  background-color: #FFE065;
+}
+
+.info {
+  width: 90%;
+  display: inline-block;
+  float: left;
+  padding-top: 20px;
+}
+.info-top h1 {
+  font-size: 150%;
+  color: #000000;
+  font-weight: 550;
+  float: left;
+  display: inline-block;
+  line-height: 18px;
+  width: 60%;
+  margin-bottom: 0;
+}
+.info-top h3 {
+  font-size: 175%;
+  color: #000000;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 18px;
+  float: left;
+  width: 40%;
+  margin-bottom: 0;
+}
+.info-bottom h1 {
+  font-size: 125%;
+  color: #000000;
+  line-height: 18px;
+  font-weight: 550;
+  float: left;
+  width: 60%;
+  margin-top: 8px;
+}
+.info-bottom h3 {
+  font-size: 125%;
+  color: #000000;
+  line-height: 18px;
+  float: left;
+  font-weight: normal;
+  font-style: oblique;
+  width: 40%;
+  margin-top: 8px;
+}
+.info-top {
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+.info-bottom {
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+.arrow {
+  margin: 1% 0;
+  width: 10%;
+  padding: 30px 0px;
+  display: inline-block;
+  text-align: center;
 }
