@@ -1,6 +1,7 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
 body {
   background-color: #eeeeee;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
