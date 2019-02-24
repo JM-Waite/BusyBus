@@ -12,6 +12,8 @@ body {
   width: 375px;
   margin: 20px auto;
 }
+
+/* NAV */
 nav {
   color: #000000;
   box-sizing: border-box;
@@ -51,21 +53,20 @@ nav {
   padding-top: 18px;
 }
 
-.google {
-  height: 75px;
-}
-
-
-.map {
+/* MAP */
+iframe {
   float: left;
+  display: inline-block;
+  width: 375px;
+  height: 300px;
 }
 
+
+/* START OF BUS LIST */
 .bus-list {
   padding-top: 43px;
   width: 100%;
 }
-
-
 .bus-bar {
   float: left;
   width: 100%;
@@ -76,7 +77,6 @@ nav {
   font-size: 1.25em;
   font-weight: bolder;
 }
-
 .bus {
   float: left;
   width: 50%;
@@ -92,7 +92,7 @@ nav {
 }
 
 
-
+/* BUSSES */
 .header {
   background-color: #E5E5E5;
   margin: 1% 0px;
@@ -118,7 +118,6 @@ nav {
 .location:hover {
   background-color: #FFE065;
 }
-
 
 .info {
   width: 90%;
@@ -165,7 +164,6 @@ nav {
   width: 40%;
   margin-top: 8px;
 }
-
 .info-top {
   width: 100%;
   float: left;
@@ -176,7 +174,6 @@ nav {
   float: left;
   display: inline-block;
 }
-
 .arrow {
   margin: 1% 0;
   width: 10%;
